@@ -22,7 +22,6 @@ const Index = props => {
     if(totalHash.length > 1 && totalHash[1] !== "") {
       const scrollToAnchor = () => {
         const hashParts = totalHash[1].split('#');
-        console.log(hashParts);
         if (hashParts.length >= 2) {
           const hash = hashParts.slice(-1)[0];
           var element = document.getElementById(`${hash}`);
@@ -43,7 +42,6 @@ const Index = props => {
       };
       scrollToAnchor();
     } else {
-      console.log('reached here');
       window.scrollTo({
         top: 0,
         behavior: 'smooth'
