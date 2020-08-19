@@ -18,29 +18,37 @@ const Index = props => {
   },[]);
 
   useEffect(() => {
-    window.location.hash = window.decodeURIComponent(window.location.hash);
-    const scrollToAnchor = () => {
-      const hashParts = window.location.hash.split('#');
-      if (hashParts.length >= 2) {
-        const hash = hashParts.slice(-1)[0];
-        var element = document.getElementById(`${hash}`);
-        var headerOffset = 100;
-        var elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-        var offsetPosition = elementPosition - headerOffset;
-        
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth'
-        });
-      } else {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        });
-      }
-    };
-    scrollToAnchor();
-    window.onhashchange = scrollToAnchor;
+    var totalHash = window.location.hash.split('/');
+    if(totalHash.length > 1 && totalHash[1] !== "") {
+      const scrollToAnchor = () => {
+        const hashParts = totalHash[1].split('#');
+        console.log(hashParts);
+        if (hashParts.length >= 2) {
+          const hash = hashParts.slice(-1)[0];
+          var element = document.getElementById(`${hash}`);
+          var headerOffset = 100;
+          var elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+          var offsetPosition = elementPosition - headerOffset;
+          
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        } else {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        }
+      };
+      scrollToAnchor();
+    } else {
+      console.log('reached here');
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
   });
   
   return (

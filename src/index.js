@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import "assets/css/nucleo-icons.css";
 import "assets/scss/blk-design-system-react.scss?v=1.1.0";
@@ -12,7 +12,7 @@ import CLI from "views/cli.js";
 
 
 ReactDOM.render(
-  <BrowserRouter basename={'/'}>
+  <HashRouter basename={''}>
     <Switch>
       <Route exact path="/" render={props => <Index {...props} />} />
       <Route exact
@@ -24,6 +24,6 @@ ReactDOM.render(
         render={props => <CLI {...props} />}
       />
     </Switch>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );
