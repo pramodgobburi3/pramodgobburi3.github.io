@@ -1,0 +1,232 @@
+{
+  "name": "Pramod Gobburi",
+  "description": "Full-Stack Software Engineer",
+  "social_links": [
+    {
+      "name": "GitHub",
+      "icon": "fab fa-github",
+      "color": "primary",
+      "url": "https://www.github.com/pramodgobburi3"
+    }, {
+      "name": "LinkedIn",
+      "icon": "fab fa-linkedin",
+      "color": "success",
+      "url": "https://www.linkedin.com/in/pramod-gobburi/"
+    }
+  ],
+  "education": {
+    "header": "Aug 2015 - May 2019",
+    "image": "msu_logo.png",
+    "university": "McNeese State University",
+    "major": "Bachelor's of Computer Science",
+    "minor": "Minor in Mathematics",
+    "coursework": "Coursework in programming languages, database management, algorithm design, computer architecture, operating systems, and artificial intelligence."
+  },
+  "experience": [
+    {
+      "header": "June 2019 - Present",
+      "image": "gophr_logo.png",
+      "name": "Gophr App Inc",
+      "position": "Full-Stack Software Engineer",
+      "roles": [
+        "Led multiple development teams, coordinated, and developed multiple projects.",
+        "Developed a mobile marketplace application using React Native.",
+        "Developed responsive dashboards using React.",
+        "Designed and implemented cloud infrastructure in AWS.",
+        "Designed and developed full-stack applications using Django and MeteorJS and multiple microservices using ExpressJS."
+      ]
+    },
+    {
+      "header": "Nov 2017 - June 2019",
+      "image": "gophr_logo.png",
+      "name": "Freelance Development",
+      "position": "Software Engineer",
+      "roles": [
+        "Offered consulting services for local businesses regarding software systems design.",
+        "Designed, developed and published Android applications.",
+        "Built various software components for a self-order kiosk and a mobile app.",
+        "Developed REST APIs and full stack web applications using Django framework.",
+        "Designed and developed full-stack applications using Django and MeteorJS and multiple microservices using ExpressJS.",
+        "Developed responsive web applications and dashboards using Angular."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Javascript / NodeJS",
+      "years": 2,
+      "icon": "devicon-nodejs-plain"
+    },
+    {
+      "name": "HTML5",
+      "years": 3,
+      "icon": "devicon-html5-plain"
+    },
+    {
+      "name": "Python / Flask",
+      "years": 3,
+      "icon": "devicon-python-plain"
+    },
+    {
+      "name": "C / C#",
+      "years": 1.5,
+      "icon": "devicon-c-plain"
+    },
+    {
+      "name": "Android",
+      "years": 2,
+      "icon": "devicon-android-plain"
+    },
+    {
+      "name": "Ruby on Rails",
+      "years": 1,
+      "icon": "devicon-rails-plain"
+    },
+    {
+      "name": "Java / Spring Boot",
+      "years": 2,
+      "icon": "devicon-java-plain"
+    },
+    {
+      "name": "PostgreSQL",
+      "years": 3,
+      "icon": "devicon-postgresql-plain"
+    },
+    {
+      "name": "MongoDB",
+      "years": 1,
+      "icon": "devicon-mongodb-plain"
+    },
+    {
+      "name": "MySQL",
+      "years": 1,
+      "icon": "devicon-mysql-plain"
+    },
+    {
+      "name": "Django",
+      "years": 3,
+      "icon": "devicon-django-line"
+    },
+    {
+      "name": "React / React Native",
+      "years": 1.5,
+      "icon": "devicon-react-original"
+    },
+    {
+      "name": "ExpressJS",
+      "years": 1.5,
+      "icon": "devicon-express-original"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Gophr Marketplace App",
+      "image": "gophr_marketplace.png",
+      "description": "A cross-platform marketplace app for local stores to facilitate sales and deliveries. A convenient one-stop shop for all things local. Integrated with ExpressJS microservices. Developed for Gophr App Inc.",
+      "stacks": [
+        "react-native",
+        "javascript",
+        "express"
+      ],
+      "links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=app.gophr.gophrandroid"
+        },
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/us/app/gophr-local-stores-delivered/id1502467848"
+        }
+      ]
+    },
+    {
+      "name": "Cheep",
+      "image": "cheep.png",
+      "description": "A personal finance application with support for smart budgeting, and live transactions. Developed using Plaid API.",
+      "stacks": [
+        "android",
+        "django",
+        "python"
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/pramodgobburi3/Cheep"
+        }
+      ]
+    },
+    {
+      "name": "Free Speech Messenger",
+      "image": "freespeech_messenger.jpg",
+      "description": "An instant messaging and VOIP calling mobile application. Developed for Android using Google's Firebase services and Sinch SDK for VOIP calling.",
+      "stacks": [
+        "android",
+        "javascript"
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/pramodgobburi3/Freespeech-Messenger"
+        }
+      ]
+    },
+    {
+      "name": "Android CDN",
+      "image": "android_cdn.png",
+      "description": "A simple drag and drop CDN that downloads any uploaded content onto a supported android device with the app instantly.",
+      "stacks": [
+        "android",
+        "django",
+        "python",
+        "html"
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/pramodgobburi3/Android-CDN"
+        }
+      ]
+    },
+    {
+      "name": "Invoice Manager",
+      "image": "invoice_manager.png",
+      "description": "An online dashboard that allows business owners to create invoices, assign invoices to clients, and manage invoices, and use analytics to track expenditures.",
+      "stacks": [
+        "django",
+        "python",
+        "html"
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/pramodgobburi3/Invoice-Manager"
+        }
+      ]
+    },
+    {
+      "name": "In-store Kiosk",
+      "image": "in_store_kiosk.png",
+      "description": "An unattended in-store kiosk for efficient ordering of products and running transactions in a convenience store. Developed for 360Fuel.",
+      "stacks": [
+        "android",
+        "django",
+        "python",
+        "html"
+      ]
+    },
+    {
+      "name": "Fun with OpenCV",
+      "image": "fun_with_opencv.png",
+      "description": "A collection of personal and experimental OpenCV projects created with Python.",
+      "stacks": [
+        "python"
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/pramodgobburi3/OpenCV-Projects"
+        }
+      ]
+    }
+  ]
+}
