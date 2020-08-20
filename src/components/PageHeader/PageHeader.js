@@ -15,7 +15,7 @@ const PageHeader = props => {
     window.open(url, "_blank");
   }
   return (
-    <div className="page-header" style={{height: '65vh', minHeight: 0, maxHeight: '65vh'}}>
+    <div className="page-header" style={{height: '70vh', minHeight: 0, maxHeight: '70vh'}}>
       {frameWidth >= 796 && (
         <>
           <div className="squares square1" />
@@ -28,7 +28,7 @@ const PageHeader = props => {
       )}
       
       <Container>
-        <div className="content-center brand" style={{marginTop: 65, marginBottom: 10}}>
+        <div className="content-center brand" style={{marginTop: '3.75em', marginBottom: 10}}>
           
           <h1 className="h1-seo">
             <CursorImitator 
