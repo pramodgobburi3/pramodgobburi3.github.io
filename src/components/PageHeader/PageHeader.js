@@ -45,8 +45,9 @@ const PageHeader = props => {
                   data.social_links.map((link, index) => (
                     <Button className="btn-simple" color={link.color} onClick={() => openLinkInNewTab(link.url)}><i className={link.icon} style={{marginRight: 5}}/>{link.name}</Button>
                   ))
+                  
                 }
-                <Button className="btn-simple btn-neutral" color="default" onClick={() => openLinkInNewTab('https://drive.google.com/file/d/1kRRT3Eu0iQ2K5VX2BQxV-s8-36Kx_31V/view?usp=sharing')}>
+                <Button className="btn-simple btn-neutral" color="default" onClick={() => openLinkInNewTab('https://drive.google.com/file/d/13Qzv65rvS7XiUkyxNFugpkOU0DcUwAF3/view?usp=sharing')}>
                   Resume
                 </Button>
               </Col>

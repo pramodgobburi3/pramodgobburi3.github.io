@@ -80,23 +80,37 @@ const CLI = props => {
                                       +1(337)529-0547 | pramod.gobburi@gmail.com | www.pramodgobburi.com\n
               ==================================================================================================================\n
                 Professional Summary\n
-                  - I'm a Computer Science graduate from McNeese State University seeking full-time opportunities as a software
-                    engineer.\n
+                  I am a driven full-stack engineer with experience working in the fields of IoT ane e-commerce. Currently,
+                  I work as a full-stack engineer at 360Fuel and Gophr App Inc. I'm a skilled team player with experience
+                  leading multiple teams and projects. I'm always seeking interesting challenges to imporve my personal
+                  and professinal skills. \n
               ------------------------------------------------------------------------------------------------------------------\n
                 Work Experience\n
+                  * 360Fuel
+                    Full-Stack Software Engineer, Oct 2020 - Present                                               Lafayette, LA
+                    - Developed a micro-service that facilitates kiosk and mobile ordering.
+                    - Iterated on the development and deployment of 360Fuel Android application.
+                    - Integrated embedded-systems such as card readers and printers on gas dispensers.
+                    - Developed a client facing web ordering dashboard in NextJS.\n
                   * Gophr App Inc                                                                               Lake Charles, LA
                     Full-Stack Software Engineer, May 2019 - Present
                     - Led multiple development teams, coordinated, and developed multiple projects.
                     - Developed a mobile marketplace application using React Native.
                     - Developed responsive dashboards using React.
                     - Designed and implemented cloud infrastructure in AWS.\n
+                  * 360Fuel
+                    Junior Software Developer, Nov 2017- May 2019                                                 Lafayette, LA
+                    - Developed a prototype of a dispenser media player in Android.
+                    - Developed REST APIs and full-stack web applications using Django framework.
+                    - Integrated embedded-systems such as card readers and printers on gas dispensers.
+                    - Built various software components for a self-order kiosk and food ordering mobile app.
+                    - Developed embedded systems that facilitated content delivery.\n
                   * Freelance Developer                                                                         Lake Charles, LA
                     Software Developer, Nov 2017 - May 2019
-                    - Offered consulting services for local businesses about designing software systems.
-                    - Developed and published Android applications.
-                    - Developed REST APIs and full-stack web applications using Django framework.
-                    - Built various software components for a self-order kiosk and food ordering mobile app.
-                    - Developed responsive web applications and dashboards using Angular.\n
+                    - Offered software consulting services to local businesses.
+                    - designed and developed mobile app prototypes in Android.
+                    - Develoed ETL and automation scripts in Python.
+                    - Developed a web applicatoin that facilitated equipment tracking and scheduling.\n
               ------------------------------------------------------------------------------------------------------------------\n
                 Education\n
                   * McNeese State University                                                                    Lake Charles, LA
@@ -258,7 +272,7 @@ const CLI = props => {
           type: 'output',
           value: 'Opening resume.pdf...'
         });
-        window.open('https://drive.google.com/file/d/1kRRT3Eu0iQ2K5VX2BQxV-s8-36Kx_31V/view?usp=sharing', '_blank');
+        window.open('https://drive.google.com/file/d/13Qzv65rvS7XiUkyxNFugpkOU0DcUwAF3/view?usp=sharing', '_blank');
       }
       else {
         nList.push({
