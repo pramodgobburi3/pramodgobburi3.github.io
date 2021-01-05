@@ -24,29 +24,53 @@
   },
   "experience": [
     {
-      "header": "June 2019 - Present",
+      "header": "October 2020 - Present",
+      "image": "360fuel.png",
+      "name": "360Fuel",
+      "position": "Full-Stack Software Engineer",
+      "roles": [
+        "Developed a micro-service that facilitates kiosk and mobile ordering.",
+        "Iterated on the development and deployment of 360Fuel Android application.",
+        "Integrated embedded-systems such as card readers and printers on to gas dispensers.",
+        "Designed and implemented cloud infrastructure in AWS.",
+        "Developed a client facing web ordering dashboard in Next.JS."
+      ]
+    },
+    {
+      "header": "May 2019 - Present",
       "image": "gophr_logo.png",
       "name": "Gophr App Inc",
       "position": "Full-Stack Software Engineer",
       "roles": [
-        "Led multiple development teams, coordinated, and developed multiple projects.",
         "Developed a mobile marketplace application using React Native.",
-        "Developed responsive dashboards using React.",
+        "Developed internal and merchant facing responsive dashboards using React.",
         "Designed and implemented cloud infrastructure in AWS.",
-        "Designed and developed full-stack applications using Django and MeteorJS and multiple microservices using ExpressJS."
+        "Designed and developed multiple micro-services in ExpressJS and full-stack applications in Django and MeteorJS."
       ]
     },
     {
-      "header": "Nov 2017 - June 2019",
+      "header": "October 2020 - Present",
+      "image": "360fuel.png",
+      "name": "360Fuel",
+      "position": "Junior Software Developer",
+      "roles": [
+        "Developed a prototype of a dispenser media player in Android.",
+        "Developed multiple REST APIs and full-stack web applications using Django Framework.",
+        "Developed various software components for a self-order kiosk and food ordering mobile app.",
+        "Designed and implemented cloud infrastructure in AWS.",
+        "Developed embedded systems that facilitated content delivery."
+      ]
+    },
+    {
+      "header": "June 2016 - Nov 2017",
       "image": "freelance.png",
-      "name": "Freelance Development",
-      "position": "Software Engineer",
+      "name": "Freelance",
+      "position": "Software Developer",
       "roles": [
         "Offered consulting services for local businesses regarding software systems design.",
-        "Designed, developed and published Android applications.",
-        "Built various software components for a self-order kiosk and a mobile app.",
-        "Developed REST APIs and full stack web applications using Django framework.",
-        "Developed responsive web applications and dashboards using Angular."
+        "Designed and developed mobile app prototypes in Android",
+        "Developed ETL and automation scripts in Python",
+        "Developed a web application that facilitated equipment tracking and scheduling."
       ]
     }
   ],

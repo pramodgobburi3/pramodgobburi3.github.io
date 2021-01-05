@@ -41,7 +41,7 @@ const Experience = props => {
                         <h6>{experience.header}</h6>
                         <img
                           alt="..."
-                          style={{width: 55, height: 50, marginTop: 10, marginBottom: 10}}
+                          style={{width: 'auto', height: 50, marginTop: 10, marginBottom: 10}}
                           src={require("assets/img/" + experience.image)}
                         />
                         <h3 style={{marginBottom: 10}}>{ experience.name }</h3>
