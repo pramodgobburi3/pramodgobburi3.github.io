@@ -32,7 +32,6 @@
         "Developed a micro-service that facilitates kiosk and mobile ordering.",
         "Iterated on the development and deployment of 360Fuel Android application.",
         "Integrated embedded-systems such as card readers and printers on to gas dispensers.",
-        "Designed and implemented cloud infrastructure in AWS.",
         "Developed a client facing web ordering dashboard in Next.JS."
       ]
     },
@@ -49,7 +48,7 @@
       ]
     },
     {
-      "header": "October 2020 - Present",
+      "header": "November 2017 - May 2019",
       "image": "360fuel.png",
       "name": "360Fuel",
       "position": "Junior Software Developer",
@@ -57,12 +56,11 @@
         "Developed a prototype of a dispenser media player in Android.",
         "Developed multiple REST APIs and full-stack web applications using Django Framework.",
         "Developed various software components for a self-order kiosk and food ordering mobile app.",
-        "Designed and implemented cloud infrastructure in AWS.",
         "Developed embedded systems that facilitated content delivery."
       ]
     },
     {
-      "header": "June 2016 - Nov 2017",
+      "header": "June 2016 - November 2017",
       "image": "freelance.png",
       "name": "Freelance",
       "position": "Software Developer",
