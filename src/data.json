@@ -1,6 +1,7 @@
 {
   "name": "Pramod Gobburi",
   "description": "Full-Stack Software Engineer",
+  "resume_url": "https://drive.google.com/file/d/1umGNPCVYLxP-R_eu_P1RUbsesx6wwK8X/view",
   "social_links": [
     {
       "name": "GitHub",
@@ -24,7 +25,18 @@
   },
   "experience": [
     {
-      "header": "October 2020 - Present",
+      "header": "March 2021 - Present",
+      "image": "covetrus.png",
+      "name": "Covetrus Inc",
+      "position": "Software Engineer",
+      "roles": [
+        "Contributed to the support and security maintenance of various legacy Spring applications.",
+        "Worked with multiple teams to develop new features to an online prescription management system.",
+        "Worked on developing and deploying a third-party prescription management integration for external veterinary practice management systems (PIMS)."
+      ]
+    },
+    {
+      "header": "October 2020 - March 2021",
       "image": "360fuel.png",
       "name": "360Fuel",
       "position": "Full-Stack Software Engineer",

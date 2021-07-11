@@ -47,7 +47,7 @@ const PageHeader = props => {
                   ))
                   
                 }
-                <Button className="btn-simple btn-neutral" color="default" onClick={() => openLinkInNewTab('https://drive.google.com/file/d/13Qzv65rvS7XiUkyxNFugpkOU0DcUwAF3/view?usp=sharing')}>
+                <Button className="btn-simple btn-neutral" color="default" onClick={() => openLinkInNewTab(data.resume_url)}>
                   Resume
                 </Button>
               </Col>

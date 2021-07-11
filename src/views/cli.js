@@ -86,8 +86,14 @@ const CLI = props => {
                   and professinal skills. \n
               ------------------------------------------------------------------------------------------------------------------\n
                 Work Experience\n
+                  * Covetrus Inc
+                    Software Engineer, March 2021 - Present                                                Remote - Portland, ME
+                    - Contributed to the support and security maintenance of various legacy Spring applications.
+                    - Worked with multiple teams to develop new features to an online prescription management system.
+                    - Worked on developing and deploying a third-party prescription management integration for external 
+                      veterinary practice management systems (PIMS).\n
                   * 360Fuel
-                    Full-Stack Software Engineer, Oct 2020 - Present                                               Lafayette, LA
+                    Full-Stack Software Engineer, Oct 2020 - March 2021                                            Lafayette, LA
                     - Developed a micro-service that facilitates kiosk and mobile ordering.
                     - Iterated on the development and deployment of 360Fuel Android application.
                     - Integrated embedded-systems such as card readers and printers on gas dispensers.
@@ -355,6 +361,43 @@ const CLI = props => {
     box.scrollTop = box.scrollHeight;
   }
 
+  const autoComplete = () => {
+    if (input.includes(" ")) {
+      let cmd = input.split(' ')[0];
+      let param = input.split(' ')[1];
+      let availableActionCmds = ['download', 'open', 'cd'];
+      if (availableActionCmds.includes(cmd)) {
+        let files = currentDirectory[1] || currentDirectory[0] || [];
+        let result = null;
+        if (Array.isArray(files)) {
+          result = files.find(element => {
+            if(param !== "" && typeof element === 'string') {
+              return element.substring(0, param.length) === param;
+            } else {
+              if (element.length > 0) {
+                console.log('element', element[0]);
+                return element[0].substring(0, param.length) === param;
+              }
+              return "";
+            }
+          });
+          if (result && typeof result !== "string") {
+            result = result[0];
+          }
+        } else {
+          if (param.trim() === "" || files.substring(0, param.length) === param) {
+            result = files;
+          }
+        }
+        
+        setInput(cmd + " " + (result ? result : param));
+      }
+    } else {
+      let result = availableCommands.find(element => element.name.substring(0, input.length) === input);
+      setInput(result ? result.name + " " : input);
+    }
+  }
+
   const renderOutput = (cmd, idx) => {
     if (cmd) {
       if (cmd.type === 'error') {
@@ -435,7 +478,15 @@ const CLI = props => {
                 <input id="input" autoFocus={true} autoComplete="off" autoCorrect={false} type="text" value={input} style={styles.terminalInput} onChange={e => {
                   scrollToBottom();
                   setInput(e.target.value);
-                }}/>
+                }}
+                onKeyDown={(e) => { 
+                  if(e.key === 'Tab') { 
+                    console.log('tab pressed');
+                    e.preventDefault();
+                    autoComplete();
+                  }
+                }}
+                />
               </form>
             </div>
             {renderOutput()}

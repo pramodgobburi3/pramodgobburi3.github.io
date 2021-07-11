@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.b6a47d1b.chunk.css",
-    "main.js": "/static/js/main.7ed48b9c.chunk.js",
-    "main.js.map": "/static/js/main.7ed48b9c.chunk.js.map",
+    "main.js": "/static/js/main.479c2093.chunk.js",
+    "main.js.map": "/static/js/main.479c2093.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ac43070.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ac43070.js.map",
-    "static/js/2.bec1daa7.chunk.js": "/static/js/2.bec1daa7.chunk.js",
-    "static/js/2.bec1daa7.chunk.js.map": "/static/js/2.bec1daa7.chunk.js.map",
+    "static/js/2.be84d53c.chunk.js": "/static/js/2.be84d53c.chunk.js",
+    "static/js/2.be84d53c.chunk.js.map": "/static/js/2.be84d53c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7e4e042c20124fb70d5403f1bd41cff5.js": "/precache-manifest.7e4e042c20124fb70d5403f1bd41cff5.js",
+    "precache-manifest.66a0588d23e64c7885e33c0cb92450aa.js": "/precache-manifest.66a0588d23e64c7885e33c0cb92450aa.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.b6a47d1b.chunk.css.map": "/static/css/main.b6a47d1b.chunk.css.map",
-    "static/js/2.bec1daa7.chunk.js.LICENSE.txt": "/static/js/2.bec1daa7.chunk.js.LICENSE.txt",
-    "static/js/main.7ed48b9c.chunk.js.LICENSE.txt": "/static/js/main.7ed48b9c.chunk.js.LICENSE.txt",
+    "static/js/2.be84d53c.chunk.js.LICENSE.txt": "/static/js/2.be84d53c.chunk.js.LICENSE.txt",
+    "static/js/main.479c2093.chunk.js.LICENSE.txt": "/static/js/main.479c2093.chunk.js.LICENSE.txt",
     "static/media/android_cdn.png": "/static/media/android_cdn.b68d378f.png",
     "static/media/aws_square.png": "/static/media/aws_square.fbda738b.png",
     "static/media/bitcoin.png": "/static/media/bitcoin.d70c756f.png",
     "static/media/blob.png": "/static/media/blob.01899307.png",
     "static/media/cercuri.png": "/static/media/cercuri.8d581ffb.png",
     "static/media/cheep.png": "/static/media/cheep.429a7d62.png",
+    "static/media/covetrus.png": "/static/media/covetrus.d4d39f76.png",
     "static/media/blk-design-system-react.scss?v=1.1.0": "/static/media/dots.b81dabc0.png",
     "static/media/etherum.png": "/static/media/etherum.4fd59ead.png",
     "static/media/favicon.png": "/static/media/favicon.b5b9abbe.png",
@@ -50,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5ac43070.js",
-    "static/js/2.bec1daa7.chunk.js",
+    "static/js/2.be84d53c.chunk.js",
     "static/css/main.b6a47d1b.chunk.css",
-    "static/js/main.7ed48b9c.chunk.js"
+    "static/js/main.479c2093.chunk.js"
   ]
 }
