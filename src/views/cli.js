@@ -81,7 +81,7 @@ const CLI = props => {
               ==================================================================================================================\n
                 Professional Summary\n
                   I am a driven full-stack engineer with experience working in the fields of IoT ane e-commerce. Currently,
-                  I work as a full-stack engineer at 360Fuel and Gophr App Inc. I'm a skilled team player with experience
+                  I work as a software engineer at Covetrus. I'm a skilled team player with experience
                   leading multiple teams and projects. I'm always seeking interesting challenges to imporve my personal
                   and professinal skills. \n
               ------------------------------------------------------------------------------------------------------------------\n
