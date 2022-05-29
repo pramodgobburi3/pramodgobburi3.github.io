@@ -1,17 +1,31 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
+import Spinner from "../components/Spinner";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import PageHeader from "components/PageHeader/PageHeader.js";
-import Footer from "components/Footer/Footer.js";
 
 import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
+import jsonData from "../data.json";
 
 const Index = props => {
 
+  const [data, setData] = useState(jsonData);
+  const [loading, setLoading] = useState(false);
+
+  function fetchLiveData() {
+    setLoading(true);
+    fetch('https://pramod-portfolio.deno.dev')
+        .then(response => response.json())
+        .then(d => setData(d))
+        .catch(err => console.log(err))
+        .finally(() => setLoading(false));
+  }
+
   useEffect(() => {
     document.body.classList.toggle("index-page");
+    fetchLiveData();
     return () => {
       document.body.classList.toggle("index-page");
     }
@@ -49,20 +63,25 @@ const Index = props => {
     }
   });
   
+
+  if (loading) {
+    return <Spinner />
+  }
+
   return (
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader />
+        <PageHeader data={data} />
         <div className="main">
           <section id="experience">
-            <Experience id="experience" />
+            <Experience id="experience" data={data} />
           </section>
           <section id="education">
-            <Education id="education" />
+            <Education id="education" data={data} />
           </section>
           <section id="skills">
-            <Skills id="skills" />
+            <Skills id="skills" data={data} />
           </section>
         </div>
         {/* <Footer /> */}

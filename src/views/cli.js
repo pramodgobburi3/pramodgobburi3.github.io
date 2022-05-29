@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { Container, Row, Col, Button } from "reactstrap";
+import { Container, Button } from "reactstrap";
 import CLIProjects from '../components/CliProjects';
 
 const CLI = props => {

@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, CardBody, Card, UncontrolledTooltip } from "reactstrap";
-import data from "../data.json";
 
-const Skills = props => {
+const Skills = ({ data }) => {
   var skills = data.skills;
   return (
     <Container>

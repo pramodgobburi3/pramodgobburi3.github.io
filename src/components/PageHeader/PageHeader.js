@@ -1,19 +1,18 @@
 import React, { useState, useEffect } from "react";
 import CursorImitator from '../CursorImitator';
-import data from '../../data.json';
-
-// reactstrap components
 import { Container, Row, Col, Button } from "reactstrap";
 
-const PageHeader = props => {
+const PageHeader = ({ data }) => {
   const [frameWidth, setFrameWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     setFrameWidth(window.innerWidth);
   }, [window.innerWidth]);
+
   const openLinkInNewTab = url => {
     window.open(url, "_blank");
   }
+
   return (
     <div className="page-header" style={{height: '70vh', minHeight: 0, maxHeight: '70vh'}}>
       {frameWidth >= 796 && (
@@ -29,7 +28,6 @@ const PageHeader = props => {
       
       <Container>
         <div className="content-center brand" style={{marginTop: '3.75em', marginBottom: 10}}>
-          
           <h1 className="h1-seo">
             <CursorImitator 
               content={[data.name]}
@@ -45,7 +43,6 @@ const PageHeader = props => {
                   data.social_links.map((link, index) => (
                     <Button className="btn-simple" color={link.color} onClick={() => openLinkInNewTab(link.url)}><i className={link.icon} style={{marginRight: 5}}/>{link.name}</Button>
                   ))
-                  
                 }
                 <Button className="btn-simple btn-neutral" color="default" onClick={() => openLinkInNewTab(data.resume_url)}>
                   Resume

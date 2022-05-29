@@ -1,25 +1,36 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Container,
   Row,
   Col,
 } from "reactstrap";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
+import Spinner from "../components/Spinner";
 
 import { 
   RenderIcon,
-  ReactNativeIcon,
-  DjangoIcon,
-  JSIcon
 } from '../components/Icons';
 import ProjectsLinksButton from '../components/ProjectLinksButton';
-import data from '../data.json';
+import jsonData from "../data.json";
+
 
 const Projects = props => {
-  const projects = data.projects;
+  const [projects, setProjects] = useState(jsonData.projects);
+  const [loading, setLoading] = useState(false);
+
+  function fetchLiveData() {
+    setLoading(true);
+    fetch('https://pramod-portfolio.deno.dev')
+        .then(response => response.json())
+        .then(d => setProjects(d.projects))
+        .catch(err => console.log(err))
+        .finally(() => setLoading(false));
+  }
+
   useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.body.classList.toggle("profile-page");
+    fetchLiveData();
     return () => {
       document.body.classList.toggle("profile-page");
     }
@@ -30,6 +41,10 @@ const Projects = props => {
       return '0' + num;
     }
     return '' + num;
+  }
+
+  if (loading) {
+    return <Spinner />
   }
 
   return (

@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import classnames from "classnames";
 import { Container, Card, CardHeader, Nav, NavItem, NavLink, CardBody, TabContent, TabPane } from "reactstrap";
-import data from "../data.json";
 
-const Experience = props => {
+const Experience = ({ data }) => {
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
   const experiences = data.experience;
 

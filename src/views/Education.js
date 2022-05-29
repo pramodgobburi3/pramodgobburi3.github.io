@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Card, CardHeader, CardBody } from "reactstrap";
-import data from '../data.json';
 
-const Education = props => {
+const Education = ({ data }) => {
 
   const renderImage = () => {
     if (data.education.image) {
