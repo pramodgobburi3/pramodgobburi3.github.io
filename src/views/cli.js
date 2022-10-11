@@ -87,7 +87,7 @@ const CLI = props => {
               ------------------------------------------------------------------------------------------------------------------\n
                 Work Experience\n
                   * Covetrus Inc
-                    Software Engineer, March 2021 - Present                                                Remote - Portland, ME
+                    Software Engineer, March 2021 - July 2022                                               Remote - Portland, ME
                     - Contributed to the support and security maintenance of various legacy Spring applications.
                     - Worked with multiple teams to develop new features to an online prescription management system.
                     - Worked on developing and deploying a third-party prescription management integration for external 
