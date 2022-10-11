@@ -15,14 +15,25 @@
       "url": "https://www.linkedin.com/in/pramod-gobburi/"
     }
   ],
-  "education": {
-    "header": "Aug 2015 - May 2019",
-    "image": "msu_logo.png",
-    "university": "McNeese State University",
-    "major": "Bachelor's of Computer Science",
-    "minor": "Minor in Mathematics",
-    "coursework": "Coursework in programming languages, database management, algorithm design, computer architecture, operating systems, and artificial intelligence."
-  },
+  "education": [
+    {
+      "header": "Aug 2022 - Present",
+      "image": "ull_logo.png",
+      "abbreviation": "ULL",
+      "university": "University of Louisiana at Lafayette",
+      "major": "Master's in Computer Science",
+      "coursework": "Coursework in programming languages, database management, and deep learning."
+    },
+    {
+      "header": "Aug 2015 - May 2019",
+      "image": "msu_logo.png",
+      "abbreviation": "MSU",
+      "university": "McNeese State University",
+      "major": "Bachelor's of Computer Science",
+      "minor": "Minor in Mathematics",
+      "coursework": "Coursework in programming languages, database management, algorithm design, computer architecture, operating systems, and artificial intelligence."
+    }
+  ],
   "experience": [
     {
       "header": "March 2021 - Present",
