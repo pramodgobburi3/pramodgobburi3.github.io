@@ -14,8 +14,7 @@
 
    Set to "" (empty string) to always use the local bundled content.json.
 --------------------------------------------------------------------------- */
-const REMOTE_CONTENT_URL =
-  "https://raw.githubusercontent.com/pramodgobburi3/portfolio-content/master/content.json";
+const REMOTE_CONTENT_URL = "";
 const LOCAL_CONTENT_URL = "content.json";
 
 /* -------------------------------------------------------------------------- */
