@@ -1,0 +1,171 @@
+{
+  "profile": {
+    "name": "Pramod Gobburi",
+    "title": "Full-Stack Software Engineer",
+    "tagline": "I build reliable, end-to-end systems — from cloud infrastructure and micro-services to the interfaces people actually use.",
+    "location": "Dallas, TX",
+    "email": "pramod.gobburi@gmail.com",
+    "resumeUrl": "https://drive.google.com/file/d/1Mik5jptwBmP_2E5SwlCp9baSHfdHoXAU/view",
+    "availableForWork": false,
+    "socials": [
+      { "label": "GitHub", "url": "https://www.github.com/pramodgobburi3", "icon": "github" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/pramod-gobburi/", "icon": "linkedin" },
+      { "label": "Email", "url": "mailto:pramod.gobburi@gmail.com", "icon": "mail" }
+    ]
+  },
+  "about": {
+    "heading": "About",
+    "body": [
+      "I'm a full-stack software engineer with experience spanning legacy enterprise systems, greenfield micro-services, mobile apps, and embedded devices. I like owning a problem across the whole stack — designing the cloud infrastructure, building the services, and shipping the interface.",
+      "Most recently I've worked on prescription-management systems at Covetrus, and before that built marketplace apps, merchant dashboards, and self-order kiosks at Gophr and 360Fuel."
+    ]
+  },
+  "skills": [
+    { "name": "Java / Spring Boot", "icon": "devicon-java-plain" },
+    { "name": "React / React Native", "icon": "devicon-react-original" },
+    { "name": "JavaScript / Node.js", "icon": "devicon-nodejs-plain" },
+    { "name": "Python / Flask", "icon": "devicon-python-plain" },
+    { "name": "Django", "icon": "devicon-django-line" },
+    { "name": "PostgreSQL", "icon": "devicon-postgresql-plain" },
+    { "name": "MySQL", "icon": "devicon-mysql-plain" },
+    { "name": "AWS", "icon": "devicon-amazonwebservices-plain-wordmark" }
+  ],
+  "experience": [
+    {
+      "company": "Covetrus Inc",
+      "role": "Senior Software Engineer",
+      "period": "Mar 2021 — Jul 2022, Aug 2023 - Present",
+      "logo": "assets/img/covetrus-logo.png",
+      "highlights": [
+        "Contributed to the support and security maintenance of various legacy Spring applications.",
+        "Worked with multiple teams to develop new features for an online prescription management system.",
+        "Developed and deployed a third-party prescription management integration for external veterinary practice management systems (PIMS)."
+      ]
+    },
+    {
+      "company": "360Fuel Inc",
+      "role": "Full Stack Software Engineer",
+      "period": "Oct 2020 -  Mar 2021",
+      "logo": "assets/img/360fuel-logo.png",
+      "highlights": [
+        "Developed a micro-service that facilitates kiosk and mobile ordering.",
+        "Iterated on the development and deployment of the 360Fuel Android application.",
+        "Integrated embedded systems such as card readers and printers onto gas dispensers.",
+        "Developed a client-facing web ordering dashboard in Next.js.",
+        "Designed and implemented cloud infrastructure in AWS.",
+        "Designed and developed multiple micro-services in ExpressJS and full-stack applications in Django and MeteorJS."
+      ]
+    },
+    {
+      "company": "Gophr App Inc",
+      "role": "Full Stack Software Engineer",
+      "period": "May 2019 — Mar 2021",
+      "logo": "assets/img/gophr-logo.png",
+      "highlights": [
+        "Developed a mobile marketplace application using React Native.",
+        "Developed internal and merchant-facing responsive dashboards using React.",
+        "Developed multiple REST APIs and full-stack web applications using the Django framework.",
+        "Developed various software components for a self-order kiosk and food-ordering mobile app.",
+        "Developed embedded systems that facilitated content delivery."
+      ]
+    },
+    {
+      "company": "360Fuel Inc",
+      "role": "Junior Software Developer",
+      "period": "Nov 2017 — May 2019",
+      "logo": "assets/img/360fuel-logo.png",
+      "highlights": [
+        "Offered consulting services for local businesses regarding software systems design.",
+        "Developed ETL and automation scripts in Python.",
+        "Developed a web application that facilitated equipment tracking and scheduling."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Louisiana at Lafayette",
+      "degree": "M.S. in Computer Science",
+      "period": "Aug 2022 — May 2024",
+      "logo": "assets/img/ull-logo.webp",
+      "detail": "Coursework in programming languages, database management, and deep learning."
+    },
+    {
+      "school": "McNeese State University",
+      "degree": "B.S. in Computer Science",
+      "period": "Aug 2015 — May 2019",
+      "logo": "assets/img/mcneese-logo.png",
+      "detail": "Coursework in programming languages, database management, algorithm design, computer architecture, operating systems, and artificial intelligence."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Gophr Marketplace App",
+      "description": "A mobile marketplace connecting local stores with same-day delivery, built with React Native and backed by AWS infrastructure.",
+      "image": "assets/img/gophr-marketplace.png",
+      "tags": ["React Native", "AWS", "Node.js"],
+      "links": [
+        { "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=app.gophr.gophrandroid" },
+        { "label": "App Store", "url": "https://apps.apple.com/us/app/gophr-local-stores-delivered/id1502467848" }
+      ],
+      "featured": true
+    },
+    {
+      "name": "Cheep",
+      "description": "A personal finance application with smart budgeting and live transactions, developed using the Plaid API.",
+      "image": "assets/img/cheep.png",
+      "tags": ["React", "Plaid API", "Fintech"],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/pramodgobburi3/Cheep" }
+      ],
+      "featured": true
+    },
+    {
+      "name": "Invoice Manager",
+      "description": "An online dashboard that lets business owners create and assign invoices to clients, manage them, and use analytics to track expenditures.",
+      "image": "assets/img/invoice-manager.png",
+      "tags": ["Django", "PostgreSQL", "Analytics"],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/pramodgobburi3/Invoice-Manager" }
+      ],
+      "featured": true
+    },
+    {
+      "name": "In-store Kiosk",
+      "description": "An unattended in-store kiosk for efficient product ordering and transactions in convenience stores. Built for 360Fuel.",
+      "image": "assets/img/in-store-kiosk.png",
+      "tags": ["Embedded", "Kiosk", "Payments"],
+      "links": [],
+      "featured": false
+    },
+    {
+      "name": "Android CDN",
+      "description": "A drag-and-drop CDN that instantly downloads any uploaded content onto a supported Android device running the app.",
+      "image": "assets/img/android-cdn.png",
+      "tags": ["Android", "Content Delivery"],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/pramodgobburi3/Android-CDN" }
+      ],
+      "featured": false
+    },
+    {
+      "name": "Free Speech Messenger",
+      "description": "An experimental, privacy-minded messaging application.",
+      "image": "assets/img/freespeech-messenger.jpg",
+      "tags": ["Messaging", "Mobile"],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/pramodgobburi3/Freespeech-Messenger" }
+      ],
+      "featured": false
+    },
+    {
+      "name": "Fun with OpenCV",
+      "description": "A collection of personal and experimental computer-vision projects created with Python and OpenCV.",
+      "image": "assets/img/fun-with-opencv.png",
+      "tags": ["Python", "OpenCV", "Computer Vision"],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/pramodgobburi3/OpenCV-Projects" }
+      ],
+      "featured": false
+    }
+  ]
+}
