@@ -44,14 +44,19 @@
   <main id="top">
     <!-- Hero -->
     <section class="hero" id="hero">
-      <p class="hero__eyebrow"><span class="dot"></span> <span data-availability>Software Engineer</span></p>
-      <h1 class="hero__name" data-name>—</h1>
-      <p class="hero__title" data-title>—</p>
-      <p class="hero__tagline" data-tagline></p>
-      <div class="hero__actions">
-        <a class="btn btn--primary" data-resume target="_blank" rel="noopener">Resume →</a>
+      <div class="hero__content">
+        <p class="hero__eyebrow"><span class="dot"></span> <span data-availability>Software Engineer</span></p>
+        <h1 class="hero__name" data-name>—</h1>
+        <p class="hero__title" data-title>—</p>
+        <p class="hero__tagline" data-tagline></p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" data-resume target="_blank" rel="noopener">Resume →</a>
+        </div>
+        <div class="hero__socials" data-socials></div>
       </div>
-      <div class="hero__socials" data-socials></div>
+      <div class="hero__3d" id="hero-3d" aria-hidden="true">
+        <canvas id="hero-canvas"></canvas>
+      </div>
     </section>
 
     <!-- About + Skills -->
@@ -106,5 +111,7 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="assets/js/app.js"></script>
+  <script type="importmap">{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.168.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.168.0/examples/jsm/" } }</script>
+  <script type="module" src="assets/js/three-hero.js"></script>
 </body>
 </html>
